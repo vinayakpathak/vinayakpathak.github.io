@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Faster than $$O(1/\\sqrt{n})$$ rate for agnostic learning?"
+title: "Faster than O(1/\\sqrt{n}) rate for agnostic learning?"
 date: 2026-04-02 22:39:44
 description:
 tags:
