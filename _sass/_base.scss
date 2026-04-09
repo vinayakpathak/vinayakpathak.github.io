@@ -891,6 +891,13 @@ html.transition *:after {
       }
     }
   }
+
+  .post-content .footnotes {
+    border-top: 1px solid var(--global-divider-color);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
+  }
 }
 
 progress {
