@@ -10,6 +10,8 @@ giscus_comments: true
 
 At some point I used to do computational/combinatorial geometry and I'd have square roots appear in my calculations a lot. Most of the time they appeared due to the Pythagoras theorem. For example, the long diagonal of the $$n$$-dimensional cube circumscribing the unit ball, has length $$2\sqrt{n}$$.
 
+![Mathematics in flight](/assets/img/blog/mathematics-in-flight.png){: .img-fluid .rounded .z-depth-1 width="40%" }
+
 Now I do learning theory, and square roots appear a lot still. And now they appear in convergence bounds. For example, with 99% probability, the empirical mean approximates the true mean of a (finite variance) random variable to within an additive error $$O(1/\sqrt{n})$$. Something I recently realized is that both square roots appear for almost the same reason. They are both consequences of things being an inner product space.
 
 An [inner product space](https://en.wikipedia.org/wiki/Inner_product_space) is a vector space together with an inner product defined on pairs of vectors, denoted $$\langle u, v \rangle$$. Once you have inner products, you also get norms by taking the inner product of a vector by itself. That is, $$\lVert u \rVert^2 = \langle u, u \rangle$$. Once you have norms, square roots start to sound like things you might frequently encounter. Indeed, if inner product is norm squared, then norm is the square root of the inner product. However, the story becomes interesting only once you start calculating norms of _sums_ of vectors.
