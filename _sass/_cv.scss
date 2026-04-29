@@ -37,6 +37,35 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
+.cv .cv-date-column {
+  flex: 0 0 12rem;
+  max-width: 12rem;
+}
+
+.cv .cv-entry-column {
+  flex: 1 1 0;
+  max-width: calc(100% - 12rem);
+}
+
+.cv .cv-date-badge {
+  line-height: 1.25;
+  min-width: 10.5rem;
+  white-space: normal;
+}
+
+@media (max-width: 767.98px) {
+  .cv .cv-date-column,
+  .cv .cv-entry-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left !important;
+  }
+
+  .cv .cv-date-badge {
+    min-width: 0;
+  }
+}
+
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;
