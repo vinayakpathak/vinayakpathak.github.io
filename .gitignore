@@ -11,4 +11,10 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Local-only preview tooling
+.venv/
+_config.local-preview.yml
+bin/dev-fast
+_sass_local/
 resume.tex
