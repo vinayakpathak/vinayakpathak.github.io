@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Review: On the Hardness of Bandit Learning"
+title: "On the Hardness of Bandit Learning"
 date: 2026-07-07 00:00:00
 description:
 tags:
